@@ -1,12 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+#header-img {
+  height: 89px;
+  width: 200px;
+}
+
+#heading {
+  text-align: center;
+  font-family: lobster;
+  color: #e51515;
+  padding-top: 120px;
+}
+
+body {
+  font-family: fira sans;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+.container {
+  margin: 0px 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 header {
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 50px;
-    padding: 25px 0px;
+    height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
+    left: 0px;
+}
+
+#about {
+  width: 60%;
+  padding: 20px;
+  }
+
+h3 {
+  margin-top: 40px;
+}
+
+nav > ul {
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+.nav-link {
+  color: white;
+}
+
+#learn {
+  width: 100%;
+  margin: 40px 20px;
+  text-align: center;
+}
+
+#video {
+  margin: 30px;
+}
+
+#pricing {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+@media (max-width: 700px) {
+  #pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  margin: 20px;
+  border: 1px solid #000;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.package {
+  font-family: lobster;
+  text-align: center;
+  font-size: 25px;
+  color: #e51515;
+}
+
+ol > li {
+  margin: 15px 15px 0px 0px;
+}
+
+#support {
+  padding: 30px 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+#name, #email {
+  margin: 10px 0px;
+  border-radius: 5px;
+  width: 250px;
+  height: 20px;
+}
+
+#text {
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 400px;
+  height: 100px;
+  border-width: 2px;
+  border-style: inset;
+}
+
+#submit {
+  margin: 10px 0px;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e51515;
+  font-weight: bold;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
      <meta name="description" content="TC2000 trading platform">
      <meta name="keywords" content="TC2000, trading, platform, stocks, options, futures, investing">
      <meta name="author" content="Peter Rawlings">
@@ -9,82 +9,120 @@
      <link rel="stylesheet" href="product.css">
   </head>
 
-  <header id="header">
-     <img 
-        id="header-img"
-        src="tc2000-logo.jpg"
-        alt="Company logo"
-        width="100px"
-        height="100"
-     >
-     <h1>Advanced Trading Platform</h1>
-        
-     <nav id="nav-bar">
-         <a class="nav-link" href="#about">About</a>&nbsp;
-         <a class="nav-link" href="#learn">Learn</a>&nbsp;
-         <a class="nav-link" href="#pricing">Pricing</a>&nbsp;
-         <a class="nav-link" href="#support">Support</a>&nbsp;
-     </nav>
-  </header>
-
   <body>
-     <section id="about">
-        <h2>Overview</h2>
-        <p>TC2000 is a stock, options and futures trading platform.
-          It has been recognised as an industry leader for over 25 years. You can try the platform free of
-          charge, by simply accessing the web based platform, or downloading the windows application.
-          The free version allows you to find all U.S stocks, options and futures, with delayed data streaming.
-          When you are ready for real time data, simply sign up for our silver, gold or platinum package.
-        </p>
+     <div id="page-wrapper">
+        <header id="header">
+           <div class="logo">
+              <img 
+                id="header-img"
+                src="https://mir-s3-cdn-cf.behance.net/projects/404/9abd5026565927.55649d2985bc4.jpg"
+                alt="Company logo"
+              >
+           </div>
+        
+           <nav id="nav-bar">
+              <ul>
+                <li><a class="nav-link" href="#about">About</a>&nbsp;</li>
+                <li><a class="nav-link" href="#learn">Learn</a>&nbsp;</li>
+                <li><a class="nav-link" href="#pricing">Pricing</a>&nbsp;</li>
+                <li><a class="nav-link" href="#support">Support</a>&nbsp;</li>
+              </ul>
+           </nav>
+        </header>
+    
+        <h1 id="heading">Advanced trading software</h1>
+    
+        <div class="container">
+           <section id="about">
+              <div class="overview">
+                 <h2>Overview</h2>
+                 <p>TC2000 is a stock, options and futures trading platform.
+                   It has been recognised as an industry leader for over 25 years. You can try the platform free of
+                   charge, by simply accessing the web based platform, or downloading the windows application.
+                   The free version allows you to find all U.S stocks, options and futures, with delayed data streaming.
+                   When you are ready for real time data, simply sign up for our silver, gold or platinum package.
+                 </p>
+              </div>
+              
+              <div class="charting">
+                 <h3>Charting</h3>
+                 <p>TC2000 offers a streamlined approach to charting software, with an endless array of trading timeframes,
+                    chart indicators, watchlists, favourites lists, scanners..... and more, there is no better way to take
+                    your trading to the next level.
+                 </p>
+              </div>
+       
+              <div class="practice">      
+                 <h3>Practice</h3>
+                 <p>Practice makes perfect, and trading is certainly no exception to that rule. That's why we believe that
+                    having the ability to practice your trading systems and strategies, without risking your hard earned money,
+                    is vital to success and longevity in this challenging game.
+                    Therefore, our silver, gold and platinum packages all offer unlimited paper trading accounts, so you can
+                    implement your strategies safely, and indefinitely.
+                 </p>
+              </div>
+           </section>
 
-        <h3>Charting</h3>
-        <p>TC2000 offers a streamlined approach to charting software, with an endless array of trading timeframes,
-           chart indicators, watchlists, favourites lists, scanners..... and more, there is no better way to take
-           your trading to the next level.
-        </p>
+           <section id="learn">
+              <h2>How to use TC2000</h2>
+              <p>For help on how to get started using the TC2000 trading platform, please watch this introductory video.</p>
+              <iframe
+                 id="video"
+                 width="560"
+                 height="300"
+                 src="https://www.youtube.com/embed/izIZxjuHVe0"
+                 frameborder="0"
+                 allow="accelerometer; autoplay; encrypted-media, gyroscope, picture-in-picture"
+                 allowfullscreen>
+              </iframe>
+           </section>
 
-        <h3>Practice</h3>
-        <p>Practice makes perfect, and trading is certainly no exception to that rule. That's why we believe that
-           having the ability to practice your trading systems and strategies, without risking your hard earned money,
-           is vital to success and longevity in this challenging game.
-           Therefore, our silver, gold and platinum packages all offer unlimited paper trading accounts, so you can
-           implement your strategies safely, and indefinitely.
-        </p>
-     </section>
+           <section id="pricing">
+              <div class="product" id="silver">
+                 <div class="package">Silver package:<br> $8.32/month</div>
+                 <ol>
+                    <li>Customizable charts</li>
+                    <li>Customizable layouts</li>
+                    <li>Watchlist builds</li>
+                    <li>Trading</li>
+                 </ol>
+              </div>
 
-     <section id="learn">
-        <h2>How to use TC2000</h2>
-        <p>For help on how to get started using the TC2000 trading platform, please whatch this introductory video.</p>
-        <iframe
-          id="video"
-          width="560"
-          height="300"
-          src="https://www.youtube.com/embed/izIZxjuHVe0"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media, gyroscope, picture-in-picture"
-          allowfullscreen>
-        </iframe>
-     </section>
-
-     <section id="pricing">
-        <h2>Pricing</h2>
-        <p>Silver package: $8.32/month</p>
-        <p>Gold package: $24.99/month</p>
-        <p>Platinum package: 74.98/month</p>
-     </section>
+              <div class="product" id="gold">
+                 <div class="package">Gold package:<br> $24.99/month</div>
+                 <ol>
+                    <li>Silver package capabilities</li>
+                    <li>+ Easyscan screener</li>
+                    <li>+ Pre/post market data</li>
+                    <li>+ Chart drawing tools</li>
+                 </ol>
+              </div>
+              
+              <div class="product" id="platinum">
+                 <div class="package">Platinum package:<br> $74.98/month</div>
+                 <ol>
+                    <li>Gold package capabilities</li>
+                    <li>+ Historical condition testing</li>
+                    <li>+ Historical scan results</li>
+                    <li>+ Unlimited alerts</li>
+                 </ol>
+              </div>
+           </section>
   
-     <section id="support">
-        <h2>Support</h2>
-        <p>If you have any comments or questions about the platform, technical issues, pricing structure,
-          or indeed anything else, please don't hesitate to get in touch.
-          We're here to help.
-        </p>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input id="name" type="text" name="name" placeholder="Enter full name" required><br>
-          <input id="email" type="email" name="email" placeholder="Enter email address" required><br>
-          <textarea placeholder="Enter your comments and questions here...." required></textarea><br>
-          <input id="submit" type="submit">
-        </form>
-     </section>
+           <section id="support">
+              <h2>Support</h2>
+              <p>If you have any comments or questions about the platform, technical issues, pricing structure,
+                 or indeed anything else, please don't hesitate to get in touch.
+                 We're here to help.
+              </p>
+              <form id="form" action="https://www.freecodecamp.com/email-submit">
+                 <input id="name" type="text" name="name" placeholder="Enter full name" required><br>
+                 <input id="email" type="email" name="email" placeholder="Enter email address" required><br>
+                 <textarea id="text" placeholder="Enter your comments and questions here...." required></textarea><br>
+                 <input id="submit" type="submit">
+              </form>
+           </section>
+        </div>
+     </div>
   </body>  
 </html>
