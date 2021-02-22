@@ -1,2 +1,2 @@
 # Landing-page
-This is a product landing page, showcasing the use of html and css
+This is a product landing page for TC2000 trading sodtware.
